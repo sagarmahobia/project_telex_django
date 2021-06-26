@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+jinja2 = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+beautifulsoup4 = "*"
+requests = "*"
+pyjwt = "*"
+django-cors-headers = "*"
+django-crontab = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
